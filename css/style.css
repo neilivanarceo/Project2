@@ -1,0 +1,100 @@
+*
+{
+	background-color: white;
+	text-decoration: none;
+	text-transform: none;
+}
+
+.nav
+{
+	float:right;
+	margin-top: none;
+	margin-right: 5px;
+	padding: 5px 10px;
+	display:flex;
+	
+}
+
+.nav li
+{ 
+display: inline-block;
+}
+
+.nav li a
+{
+	color: blue;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: sans;	
+	font-size: 15px;
+}
+
+.nav li.active a
+{ 
+text-decoration: underline; /* you can put it in underline if you want. */
+color: black;
+}
+
+.nav li a:hover
+{
+	text-decoration: underline;
+	color: black; /* you can change the color or text decoration for the nav */
+}
+
+.logo img
+{
+	width: 150px;
+	height: auto;
+	margin-left: 10px;
+	float: left;
+	margin-top: none;
+	margin-bottom: 20px;
+}
+
+#find {
+	clear: both;
+	
+}
+
+a
+{
+color: blue;
+text-decoration: underline;		
+}
+
+.image1 img
+{
+	height: 200px;
+	width: 200px;
+	border: 1px solid gray;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 5px;
+	flex-basis: 100px;
+	
+	
+	
+}
+
+/*.image2 img 
+{
+	width: 150px;
+	height: auto;
+	margin-top: 80px;
+	size: auto;
+	border: 5px solid gray;
+	padding: 10px;
+	border-radius: 5px;
+}
+*/
+.container
+{
+	flex-wrap: wrap;
+	display: flex;
+	border: 2px solid black;
+	border-color: gray;
+	padding: 10px;
+	border-radius: 5px;
+	justify-content: right;
+	align-content: space-around;
+}
