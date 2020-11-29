@@ -1,40 +1,354 @@
-<html>
+<!DOCTYPE html>
+<html lang='en'>
 	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title> Reservia </title>
-		<link href="css/style.css" type="text/css" rel="stylesheet">
-	</head>
-	<body>
-	
-	<div class="row">
-		<div class="logo">
-		<a href="index.html"><img src="Reservialogo.png" >
-		</div>
-		<div class="nav">
-			<ul>
-				<li class="active"><a href="">Accomodations</a></li>
-				<li><a href="">Activities</a></li>
-				<li><a href="">Sign Up</a></li>
-			
-			</ul>
-		</div>
-		
-		<div>
-					<p id="Find"><h3> Find a place for your dream vacation</h3>
-					 Downtown or in nature</p> 
-		</div>	
-		
-		<div class="container">
-		
-			<div class="image1"> <img src="Resources/images/activites/3_medium/paul-hermann.jpg"></div>
-			<div class="image1"> <img src="Resources/images/activites/3_medium/florian.jpg" alt="Florian" title="Florian"></div>
-			<div class="image1"> <img src="Resources/images/activites/3_medium/kevin-hikari.jpg" alt="kevin-hikari" title="kevin"></div>
-			<div class="image1"> <img src="Resources/images/activites/3_medium/kilyan-sockalingum.jpg" alt="kilyan-sockalingum" title="kevin"></div>
-			<div class="image1"> <img src="Resources/images/activites/3_medium/lena-paulini.jpg" alt="lena-paulini" title="kevin"></div>
-			<div class="image1"> <img src="Resources/images/activites/3_medium/reno-laithienne.jpg" alt="reno-laithienne" title="kevin"></div>
-		</div>
-		
-	 
-			
-</body>
-	
+        <link href="css/style1.css" type="text/css" rel="stylesheet">
+        <link href="css/stars.css" type="text/css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/81eb3f5c91.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class='header'>
+                <div class="logo" href="index.html"><img src="images/Reservialogo.png">
+                </div>
+                    <div class="nav">
+                        <ul>
+                            <li><a href="#Accomodation">Accomodations</a></li>
+                            <li><a href="#Activity">Activities</a></li>
+                            <li><a href="#">Sign Up</a></li>		
+                        </ul>
+                    </div>
+            </div>
+        </header>
+    <main>    
+        <article>
+             <header>
+                  <div class="find">
+                  <h3>Find a place for your dream vacation</h3>
+                  Downtown or in nature 
+                   </div>
+             </header>
+                <div class="wrapper">
+                    <div class="container">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" class="input" placeholder="Where you planning to go?">
+                    <input type="button" value="search" class="close-btn">
+                    </div>
+                </div>
+        </article>
+
+       
+            <section>
+                <div class='links'>
+                    <div class="links-grid">
+                        <div class='Filters'><a>Filters</a></div>
+                        <div class='Low-Cost' href="#"><i class="fas fa-money-bill-wave"></i><a>Low cost</a></div>
+                        <div class='Family-Friendly' href="#"><i class="fas fa-user-friends"></i><a>Family-friendly</a></div>
+                        <div class='Romantic' href='#'><i class="fas fa-heart"></i><a>Romantic</a></div>
+                        <div class='Pets-Allowed' href='#'><i class="fas fa-dog"></i><a>Pets allowed</a></div>
+                    </div>
+                </div>	
+            </section>
+        
+
+            <section>          
+	                <div class='images-grid-container'>          
+                            <div class="images-grid">
+                                <div class='Accom'><h4><a name="Accomodation">Accomodation in Manila</a></h4> </div>
+                                     <div class="image-grid-left">
+                                        <div class="image1-grid-item first-item"> <img src="resources/images/hebergements/4_small/aw-creative.jpg">
+                                          <a>Emile Guillemot</a><br>
+                                            <div class="stars">
+                                                <input type='radio' name="star1" id='star-5-1'>
+                                                <label for='star-5-1'></label>
+                                                <input type='radio' name="star1" id='star-4-1'>
+                                                <label for='star-4-1'></label>
+                                                <input type='radio' name="star1" id='star-3-1'>
+                                                <label for='star-3-1'></label>
+                                                <input type='radio' name="star1" id='star-2-1'>
+                                                <label for='star-2-1'></label>
+                                                <input type='radio' name="star1" id='star-1-1'>
+                                                <label for='star-1-1'></label>
+                                            
+                                            </div>
+                                        </div>
+                                
+                                        <div class="image1-grid-item"> <img src="resources/images/hebergements/4_small/emile-guillemot.jpg" alt="Florian" title="Florian">
+                                            <a>Emile Guillemot</a><br>
+                                            <div class="stars">
+                                                <input type='radio' name="stars2" id='star-5-2'>
+                                                <label for='star-5-2'></label>
+                                                <input type='radio' name="stars2" id='star-4-2'>
+                                                <label for='star-4-2'></label>
+                                                <input type='radio' name="stars2" id='star-3-2'>
+                                                <label for='star-3-2'></label>
+                                                <input type='radio' name="stars2" id='star-2-2'>
+                                                <label for='star-2-2'></label>
+                                                <input type='radio' name="stars2" id='star-1-2'>
+                                                <label for='star-1-2'></label>
+                                            </div>
+                                        </div>
+
+                                        <div class="image1-grid-item"> <img src="resources/images/hebergements/4_small/marcus-loke.jpg" alt="kevin hikari" title="kevin">
+                                        <a>Emile Guillemot</a><br>  
+                                            <div class="stars">
+                                                <input type='radio' name="stars3" id='star-5-3'>
+                                                <label for='star-5-3'></label>
+                                                <input type='radio' name="stars3" id='star-4-3'>
+                                                <label for='star-4-3'></label>
+                                                <input type='radio' name="stars3" id='star-3-3'>
+                                                <label for='star-3-3'></label>
+                                                <input type='radio' name="stars3" id='star-2-3'>
+                                                <label for='star-2-3'></label>
+                                                <input type='radio' name="stars3" id='star-1-3'>
+                                                <label for='star-1-3'></label>
+                                            </div>
+                                        </div>
+
+                                <div class="image1-grid-item"> <img src="resources/images/hebergements/4_small/febrian-zakaria-.jpg" alt="kevin hikari" title="kevin">
+                                    <a>Emile Guillemot</a><br>
+                                    <div class="stars"> 
+                                        <input type='radio' name="stars4" id='star-5-4'>
+                                        <label for='star-5-4'></label>
+                                        <input type='radio' name="stars4" id='star-4-4'>
+                                        <label for='star-4-4'></label>
+                                        <input type='radio' name="stars4" id='star-3-4'>
+                                        <label for='star-3-4'></label>
+                                        <input type='radio' name="stars4" id='star-2-4'>
+                                        <label for='star-2-4'></label>
+                                        <input type='radio' name="stars4" id='star-1-4'>
+                                        <label for='star-1-4'></label>
+                                    </div>
+                                </div>
+
+                                <div class="image1-grid-item"> <img src="resources/images/hebergements/4_small/annie-spratt.jpg" alt="kevin hikari" title="kevin">
+                                    <a>Emile Guillemot</a><br>
+                                    <div class="stars">
+                                        <input type='radio' name="stars4" id='star-5-5'>
+                                        <label for='star-5-5'></label>
+                                        <input type='radio' name="stars4" id='star-4-5'>
+                                        <label for='star-4-5'></label>
+                                        <input type='radio' name="stars4" id='star-3-5'>
+                                        <label for='star-3-5'></label>
+                                        <input type='radio' name="stars4" id='star-2-5'>
+                                        <label for='star-2-5'></label>
+                                        <input type='radio' name="stars4" id='star-1-5'>
+                                        <label for='star-1-5'></label>
+                                    </div>
+                                </div>
+
+                            <div class="image1-grid-item last-item"> <img src="resources/images/hebergements/4_small/fred-kleber.jpg" alt="kevin hikari" title="kevin">
+                                <a>Emile Guillemot</a><br>
+                                <div class="stars">
+                                    <input type='radio' name="stars4" id='star-5-6'>
+                                        <label for='star-5-6'></label>
+                                        <input type='radio' name="stars4" id='star-4-6'>
+                                        <label for='star-4-6'></label>
+                                        <input type='radio' name="stars4" id='star-3-6'>
+                                        <label for='star-3-6'></label>
+                                        <input type='radio' name="stars4" id='star-2-6'>
+                                        <label for='star-2-6'></label>
+                                        <input type='radio' name="stars4" id='star-1-6'>
+                                        <label for='star-1-6'></label>
+                                </div>    
+                            </div>
+                            
+                        </div> 
+                        <div class="show-more" href="index.html">
+                            <h4>Show more</h4>
+                       </div>
+                    </div>
+
+                    <div class="images-container-right">
+                        <div class='text-right'><h4>Most Popular</h4> </div>
+                   <div class="image-grid-right">
+                        <div class="image1-item-right first-item"> <img src="resources/images/hebergements/4_small/aw-creative.jpg">
+                           <div class="name-star-right"> <a>Emile Guillemot</a>
+                            <div class="stars">
+                                <input type='radio' name="stars4" id='star-5-7'>
+                                <label for='star-5-7'></label>
+                                <input type='radio' name="stars4" id='star-4-7'>
+                                <label for='star-4-7'></label>
+                                <input type='radio' name="stars4" id='star-3-7'>
+                                <label for='star-3-7'></label>
+                                <input type='radio' name="stars4" id='star-2-7'>
+                                <label for='star-2-7'></label>
+                                <input type='radio' name="stars4" id='star-1-7'>
+                                <label for='star-1-7'></label>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="image1-item-right"> <img src="resources/images/hebergements/4_small/marcus-loke.jpg" alt="kevin hikari" title="kevin">
+                            <div class="name-star-right"> <a>Emile Guillemot</a>
+                            <div class="stars">
+                                <input type='radio' name="stars4" id='star-5-8'>
+                                <label for='star-5-8'></label>
+                                <input type='radio' name="stars4" id='star-4-8'>
+                                <label for='star-4-8'></label>
+                                <input type='radio' name="stars4" id='star-3-8'>
+                                <label for='star-3-8'></label>
+                                <input type='radio' name="stars4" id='star-2-8'>
+                                <label for='star-2-8'></label>
+                                <input type='radio' name="stars4" id='star-1-8'>
+                                <label for='star-1-8'></label>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="image1-item-right last-item"> <img src="resources/images/hebergements/4_small/annie-spratt.jpg" alt="kevin hikari" title="kevin">
+                            <div class="name-star-right"> <a>Emile Guillemot</a>
+                            <div class="stars">
+                                <input type='radio' name="stars4" id='star-5-9'>
+                                <label for='star-5-9'></label>
+                                <input type='radio' name="stars4" id='star-4-9'>
+                                <label for='star-4-9'></label>
+                                <input type='radio' name="stars4" id='star-3-9'>
+                                <label for='star-3-9'></label>
+                                <input type='radio' name="stars4" id='star-2-9'>
+                                <label for='star-2-9'></label>
+                                <input type='radio' name="stars4" id='star-1-9'>
+                                <label for='star-1-9'></label>
+                            </div>
+                            </div>
+                        </div>
+
+                      <!--  <div class="images-grid-right">
+                            <div class='Accom'> Accomodation in Manila </div> 
+                            <div class="image1-grid-item-right first-item"> <img src="resources/images/hebergements/4_small/aw-creative.jpg">
+                                <a class='name'>Emile Guillemot</a>
+                                <div class="stars">
+                                    <form action=" ">
+                                        <input type='radio' name="star" id='star-5' class='star star-5'/>
+                                        <label class='star star-5' for='star-5'></label>
+                                        <input type='radio' name="star" id='star-4' class='star star-4'/>
+                                        <label class='star star-4' for='star-4'></label>
+                                        <input type='radio' name="star" id='star-3' class='star star-3'/>
+                                        <label class='star star-3' for='star-3'></label>
+                                        <input type='radio' name="star" id='star-2' class='star star-2'/>
+                                        <label class='star star-2' for='star-2'></label>
+                                        <input type='radio' name="star" id='star-1' class='star star-1'/>
+                                        <label class='star star-1' for='star-1'></label>
+                                    </form>
+                                </div>    
+                            </div>
+
+                            <div class="image1-grid-item-right"> <img src="resources/images/hebergements/4_small/emile-guillemot.jpg" alt="Florian" title="Florian">
+                                <a class='name'>Emile Guillemot</a>
+                                <div class="stars">
+                                    <form action=" ">
+                                        <input type='radio' name="star" id='star-5' class='star star-5'/>
+                                        <label class='star star-5' for='star-5'></label>
+                                        <input type='radio' name="star" id='star-4' class='star star-4'/>
+                                        <label class='star star-4' for='star-4'></label>
+                                        <input type='radio' name="star" id='star-3' class='star star-3'/>
+                                        <label class='star star-3' for='star-3'></label>
+                                        <input type='radio' name="star" id='star-2' class='star star-2'/>
+                                        <label class='star star-2' for='star-2'></label>
+                                        <input type='radio' name="star" id='star-1' class='star star-1'/>
+                                        <label class='star star-1' for='star-1'></label>
+                                    </form>
+                                </div>    
+                            </div>
+
+                            <div class="image1-grid-item-right"> <img src="resources/images/hebergements/4_small/marcus-loke.jpg" alt="kevin hikari" title="kevin">
+                                <a class='name'>Emile Guillemot</a>
+                                <div class="stars">
+                                    <form action=" ">
+                                        <input type='radio' name="star" id='star-5' class='star star-5'/>
+                                        <label class='star star-5' for='star-5'></label>
+                                        <input type='radio' name="star" id='star-4' class='star star-4'/>
+                                        <label class='star star-4' for='star-4'></label>
+                                        <input type='radio' name="star" id='star-3' class='star star-3'/>
+                                        <label class='star star-3' for='star-3'></label>
+                                        <input type='radio' name="star" id='star-2' class='star star-2'/>
+                                        <label class='star star-2' for='star-2'></label>
+                                        <input type='radio' name="star" id='star-1' class='star star-1'/>
+                                        <label class='star star-1' for='star-1'></label>
+                                    </form>
+                                </div> 
+                            </div>
+           
+                            <div class="image1-grid-item-right last-item"> <img src="resources/images/hebergements/4_small/fred-kleber.jpg" alt="kevin hikari" title="kevin">
+                                <a class='name'>Emile Guillemot</a>
+                                <div class="stars">
+                                    <form action=" ">
+                                        <input type='radio' name="star" id='star-5' class='star star-5'/>
+                                        <label class='star star-5' for='star-5'></label>
+                                        <input type='radio' name="star" id='star-4' class='star star-4'/>
+                                        <label class='star star-4' for='star-4'></label>
+                                        <input type='radio' name="star" id='star-3' class='star star-3'/>
+                                        <label class='star star-3' for='star-3'></label>
+                                        <input type='radio' name="star" id='star-2' class='star star-2'/>
+                                        <label class='star star-2' for='star-2'></label>
+                                        <input type='radio' name="star" id='star-1' class='star star-1'/>
+                                        <label class='star star-1' for='star-1'></label>
+                                    </form>
+                                </div>    
+                        </div>-->
+                    </div>	 
+            </section>
+      
+            <section>
+                <div class="images-gallery">
+                    <div class="header-activity"><h4><a name="Activity">Activities in Manila</a></h4></div> 
+                    <div class="image-gallery-item">
+                        <div class="gallery-1">
+                          <img src="resources/images/activites/4_small/paul-hermann.jpg"> <a>Paul Hermann </a>
+                        </div>
+                 
+                        <div class="gallery-2">
+                            <div class="gallery-2-item1"><img src="resources/images/activites/4_small/kilyan-sockalingum.jpg"/><a>Kilyan Sockalingum </a></div>
+                            <div class="gallery-2-item2"><img src="resources/images/activites/4_small/kevin-hikari.jpg"/> <a>Kevin Hikari </a></div>
+                        </div>
+
+                        <div class="gallery-3">
+                        <img src="resources/images/activites/4_small/lena-paulin.jpg"><a>Lena Paulin </a></div>
+                     
+
+                    <div class="gallery-4">
+                        <div class="gallery-4-item1"><img src="resources/images/activites/4_small/florian-wehde.jpg"/><a>Florian Wehde </a></div>
+                        <div class="gallery-4-item2"><img src="resources/images/activites/4_small/reno-laithienne.jpg"/> <a>Reno Laithienne </a></div>
+                    </div>
+
+                    <div class="gallery-5">
+                          <img src="resources/images/activites/4_small/paul-hermann.jpg"> <a>Paul Hermann </a>
+                        </div>
+                </div>
+                </div>
+            
+            </section>
+    </main>     
+    <footer>
+        <div class='footer'>
+            <div class='footer-item-left'> 
+                <div class="about"><a href="#"><strong>About</strong></a></div>
+                <div class="site-map"><a href="#">Site Map</a></div>
+                <div class="terms"><a href="#">General Terms and Condition</a></div>	
+                <div class="date"><a href="#">Date and Privacy</a></div>
+            </div>
+        
+            <div class='footer-item-center'> 
+                <div class="Our-Accomodations"><a href="#"><strong>Our Accomodations</strong></a></div>
+                <div class="quality"><a href="#">Quality</a></div>
+                <div class="have-hotel"><a href="#">You have a hotel?</a></div>
+            </div>
+            <div class='footer-item-right'> 
+                <div class="assistance"><a href="#"><Strong> Assistance</strong></a></div>
+                <div class="Help-desk"><a href="#">Help Desk</a></div>
+                <div class="contact"><a href="#">Contact</a></div>	
+            </div>
+        
+    </div>	
+    </footer>
+
+
+
+    </body>
+
+
+
 </html>
